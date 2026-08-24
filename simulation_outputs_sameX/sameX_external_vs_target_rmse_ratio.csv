@@ -1,0 +1,16 @@
+"scenario","audit_rate","rmse_ratio_external_over_target"
+"feature_shift",0.01,1.25023058515705
+"feature_shift",0.02,1.16855322271637
+"feature_shift",0.05,1.16779834893302
+"feature_shift",0.1,1.26972585020773
+"feature_shift",0.2,1.09342278927736
+"prior_shift",0.01,0.989185124512302
+"prior_shift",0.02,0.962666836731182
+"prior_shift",0.05,1.02423852032231
+"prior_shift",0.1,1.02765054648298
+"prior_shift",0.2,0.984419942363606
+"transported",0.01,0.902986104687166
+"transported",0.02,0.973213652532103
+"transported",0.05,0.956785836094168
+"transported",0.1,0.989122649745987
+"transported",0.2,0.998068562359912

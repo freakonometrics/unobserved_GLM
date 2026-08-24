@@ -1,0 +1,10 @@
+"scenario","audit_rate","proxy","brier","auc"
+"transported",NA,"External same-X",0.103176533513225,0.909079503400913
+"transported",NA,"External same-X distorted",0.112782257767614,0.909079503400913
+"transported",NA,"External BISG-like",0.126155099493112,0.864292695144373
+"prior_shift",NA,"External same-X",0.123816064393534,0.907541914036222
+"prior_shift",NA,"External same-X distorted",0.121534345229959,0.907541914036222
+"prior_shift",NA,"External BISG-like",0.151716692879977,0.862739679056371
+"feature_shift",NA,"External same-X",0.2049980758833,0.792314639540441
+"feature_shift",NA,"External same-X distorted",0.197921275228538,0.792314639540441
+"feature_shift",NA,"External BISG-like",0.153307515844871,0.862540822876742

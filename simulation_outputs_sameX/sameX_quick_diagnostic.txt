@@ -1,0 +1,20 @@
+SAME-X PROXY PROVENANCE DIAGNOSTIC
+==================================
+
+N_source = 30000; N_target = 8000; repeated audits per cell = 100
+
+Scenario: transported
+  1% RMSE -- IPW: 0.01737; target: 0.00834; external same-X: 0.00753; recalibrated: 0.00776; BISG-like: 0.00925
+ 20% RMSE -- IPW: 0.00303; target: 0.00151; external same-X: 0.00151; recalibrated: 0.00151; BISG-like: 0.00174
+  5% plug-in bias -- external same-X: -0.00046; distorted: 0.00957; recalibrated: -0.00047; BISG-like: -0.02592
+
+Scenario: prior_shift
+  1% RMSE -- IPW: 0.01705; target: 0.00773; external same-X: 0.00765; recalibrated: 0.00727; BISG-like: 0.01027
+ 20% RMSE -- IPW: 0.00332; target: 0.00145; external same-X: 0.00142; recalibrated: 0.00145; BISG-like: 0.00172
+  5% plug-in bias -- external same-X: -0.00370; distorted: 0.00602; recalibrated: -0.00030; BISG-like: -0.03158
+
+Scenario: feature_shift
+  1% RMSE -- IPW: 0.01270; target: 0.00793; external same-X: 0.00991; recalibrated: 0.01057; BISG-like: 0.00781
+ 20% RMSE -- IPW: 0.00300; target: 0.00200; external same-X: 0.00219; recalibrated: 0.00215; BISG-like: 0.00195
+  5% plug-in bias -- external same-X: 0.02784; distorted: 0.03569; recalibrated: 0.02611; BISG-like: 0.00695
+

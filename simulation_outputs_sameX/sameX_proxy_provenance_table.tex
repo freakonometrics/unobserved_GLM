@@ -1,0 +1,32 @@
+\begin{table*}[t]
+\centering\small
+\caption{Proxy-provenance simulation at a 5\% target audit rate. External same-X and target-audit proxies use identical predictors; BISG-like uses surname and geography only.}
+\label{tab:sameX-proxy-provenance}
+\begin{tabular}{llrrrr}
+\toprule
+Scenario & Method & Bias & SD & RMSE & Brier \\
+\midrule
+feature_shift & Augmented: External BISG-like & 0.00092 & 0.00378 & 0.00388 & 0.1533 \\
+prior_shift & Augmented: External BISG-like & 0.00006 & 0.00418 & 0.00416 & 0.1517 \\
+transported & Augmented: External BISG-like & -0.00033 & 0.00439 & 0.00438 & 0.1262 \\
+feature_shift & Augmented: External same-X & 0.00064 & 0.00460 & 0.00462 & 0.2050 \\
+prior_shift & Augmented: External same-X & -0.00021 & 0.00345 & 0.00344 & 0.1238 \\
+transported & Augmented: External same-X & -0.00008 & 0.00351 & 0.00349 & 0.1032 \\
+feature_shift & Augmented: External same-X recalibrated & 0.00052 & 0.00476 & 0.00477 & 0.1804 \\
+prior_shift & Augmented: External same-X recalibrated & -0.00016 & 0.00341 & 0.00339 & 0.1196 \\
+transported & Augmented: External same-X recalibrated & -0.00011 & 0.00358 & 0.00356 & 0.1041 \\
+feature_shift & Augmented: Target-audit same-X & 0.00095 & 0.00386 & 0.00396 & 0.1463 \\
+prior_shift & Augmented: Target-audit same-X & -0.00017 & 0.00337 & 0.00336 & 0.1220 \\
+transported & Augmented: Target-audit same-X & -0.00017 & 0.00366 & 0.00365 & 0.1066 \\
+feature_shift & IPW & 0.00089 & 0.00594 & 0.00597 & -- \\
+prior_shift & IPW & -0.00024 & 0.00863 & 0.00859 & -- \\
+transported & IPW & -0.00148 & 0.00753 & 0.00764 & -- \\
+feature_shift & Plug-in: External BISG-like & 0.00695 & 0.00000 & 0.00695 & 0.1533 \\
+prior_shift & Plug-in: External BISG-like & -0.03158 & 0.00000 & 0.03158 & 0.1517 \\
+transported & Plug-in: External BISG-like & -0.02592 & 0.00000 & 0.02592 & 0.1262 \\
+feature_shift & Plug-in: External same-X & 0.02784 & 0.00000 & 0.02784 & 0.2050 \\
+prior_shift & Plug-in: External same-X & -0.00370 & 0.00000 & 0.00370 & 0.1238 \\
+transported & Plug-in: External same-X & -0.00046 & 0.00000 & 0.00046 & 0.1032 \\
+\bottomrule
+\end{tabular}
+\end{table*}
